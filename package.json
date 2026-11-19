@@ -15,7 +15,7 @@
     "telegram": "2.26.22"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20261119.0",
+    "@cloudflare/workers-types": "^5.20261118.1",
     "@types/node": "^22.15.0",
     "typescript": "^5.9.3",
     "wrangler": "^4.50.0"
