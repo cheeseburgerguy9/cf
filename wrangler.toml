@@ -1,4 +1,4 @@
-name = "caitlin-stremio-proxy"
+name = "cf"
 main = "src/index.ts"
 compatibility_date = "2026-11-19"
 compatibility_flags = ["nodejs_compat"]
@@ -7,9 +7,9 @@ workers_dev = true
 # Run `npm run setup` once to create and bind these free KV namespaces.
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "REPLACE_WITH_SESSIONS_KV_ID"
+id = "487e72bf200a472381473cdb4e173d3a"
 
 
 [vars]
-WORKER_ID = "caitlin-stremio-proxy"
+WORKER_ID = "cf"
 # Set ORIGIN_URL and SHARED_SECRET with `wrangler secret put`.
